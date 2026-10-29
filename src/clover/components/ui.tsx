@@ -14,7 +14,7 @@ export function Block({ tone = "metal", className, faceClassName, style, childre
   tone?: Tone;
   className?: string;
   faceClassName?: string;
-  style?: CSSProperties;
+  style?: CSSProperties | undefined;
   children?: ReactNode;
 }) {
   return (
